@@ -19,7 +19,7 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     border-top: 1px solid #AE7C78;
     border-bottom: 1px solid #AE7C78;
@@ -29,7 +29,7 @@ a {
 
 .header_menu_li {
     padding: 0;
-    margin-right: 100px;
+    margin:  20px 50px;
 }
 
 .header_menu_li img {
@@ -373,6 +373,7 @@ cite {
     margin-top: 80px;
     margin-bottom: 0;
     background: transparent;
+    max-width: 100%;
 }
 
 .address {
@@ -415,6 +416,7 @@ cite {
     background: #AE7C78;
     color: #FFFFFF;
     align-content: center;
+    max-width: 100%;
 }
 
 .footer_menu {
